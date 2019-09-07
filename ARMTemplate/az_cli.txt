@@ -1,0 +1,3 @@
+$rg = 'rgname'
+az group create --name $rg --location westus
+az group deployment create -g $rg --template-file .\virtualmachine.json  --parameters @virtualmachine-param.json 
