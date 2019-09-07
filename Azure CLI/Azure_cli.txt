@@ -1,0 +1,9 @@
+az vm create --name 'newvm1'`
+    --resource-group 'test'`
+    --location 'westus'`
+    --size 'Standard_A2'`
+    --admin-username 'install'`
+    --admin-password 'W0rd@Pass2584'`
+    --image win2016datacenter
+
+
